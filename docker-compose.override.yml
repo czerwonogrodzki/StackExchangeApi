@@ -6,7 +6,7 @@ services:
       - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_HTTP_PORTS=8080
       - ConnectionStrings__DefaultConnection=Host=postgres; Port=5432; Database=Tags; User Id=postgres; Password=postgres
-      - NumberOfTagsInDatabase=500
+      - NumberOfTagsInDatabase=1500
       - MaxPageSize=50
       - StackExchange__ApiUrl=https://api.stackexchange.com/2.3/tags
       - StackExchange__PageSize=100
